@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/selenium-server-standalone-3.14.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Automation software/lib/lib/used jar file/client-combined-3.14.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

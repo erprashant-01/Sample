@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Login">
+        <test name="Login">
+    	<parameter name="Email" value="atest@gmail.com"/>
+		<parameter name="Pwd" value="123456"/>
+		<parameter name="sDriver" value="webdriver.chrome.driver"/>
+		<parameter name="sDriverPath" value="Drivers/chromedriver.exe"/>
+		<parameter name="sURL" value="/index.jsp"/>
+		
+	
+		 <classes>
+			    <class name="DemoLogin.Login">
+			       <methods>
+                          <include name="Login" />
+                          <include name="LoginButton" />
+                          <include name="credentials" />
+                          <include name="validateUser" />
+                          <include name="clearCart" />
+                          <include name="Logout" />
+                                                                  
+                      </methods>
+                  </class>
+			</classes>
+    </test>
+  </suite> 

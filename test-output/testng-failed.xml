@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Login]">
+  <test thread-count="5" name="Login(failed)">
+    <parameter name="Email" value="atest@gmail.com"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="sDriverPath" value="Drivers/chromedriver.exe"/>
+    <parameter name="sURL" value="/index.jsp"/>
+    <parameter name="Pwd" value="123456"/>
+    <classes>
+      <class name="DemoLogin.Login">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="clearCart"/>
+          <include name="tearDown"/>
+          <include name="Logout"/>
+          <include name="validateUser"/>
+        </methods>
+      </class> <!-- DemoLogin.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Demo Login] -->
